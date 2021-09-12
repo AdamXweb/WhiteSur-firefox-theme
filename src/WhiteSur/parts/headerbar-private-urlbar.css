@@ -8,11 +8,11 @@
 	content: "";
 	display: block;
 	position: absolute;
-	width: 32px;
-	height: 32px;
-	top: 8px;
+	width: var(--private-browsing-icon-wh);
+	height: var(--private-browsing-icon-wh);
+	top: var(--private-browsing-icon-top);
 	opacity: 0.3;
-	transform: translate(15px, 0);
+	transform: translate(var(--private-browsing-icon-transform), 0);
 }
 
 :root[privatebrowsingmode="temporary"] #nav-bar toolbarspring:first-of-type:-moz-lwtheme-brighttext:before {

@@ -1,0 +1,9 @@
+/* MacOS Specific*/
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+
+@supports -moz-bool-pref("-moz-osx-font-smoothing") {
+    :root {
+
+    }
+
+}
